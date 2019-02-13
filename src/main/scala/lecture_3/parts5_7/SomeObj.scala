@@ -22,7 +22,7 @@ object SomeObj extends App {
 
   println(x + y)
 
-  println(x.neg)
+  println(-x)
 
   println(z - v)
 

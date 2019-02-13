@@ -40,5 +40,5 @@ class Rational(x: Int, y: Int) {
   def < (that: Rational): Boolean =
     numerator * that.denominator < that.numerator * denominator
 
-  def max(that: Rational) = if (this<that) that else this
+  def max(that: Rational): Rational = if (this<that) that else this
 }
