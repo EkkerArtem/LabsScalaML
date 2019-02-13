@@ -12,5 +12,7 @@ object main {
     println(nth(2, list))
     println(nth(4, list))
     println(nth(-1, list))
+
+
   }
 }
