@@ -1,6 +1,6 @@
 package lecture_5.part3
 
-class Nil[T] extends List[T]{
+object Nil extends List[Nothing]{
   override def isEmpty: Boolean = true
 
   override def head: Nothing = throw new NoSuchElementException("Nil.head")
